@@ -6,7 +6,7 @@ console.log(`${hello} ${world}`);
 
 // Zadanie drugie
 
-const multiply = (a, b=1) => console.log(a*b);
+const multiply = (a, b = 1) => console.log(a * b);
 multiply(3, 5);
 multiply(6, 6);
 multiply(5);
@@ -14,7 +14,7 @@ multiply(5);
 // Zadanie trzecie
 
 const sum = (args) => args.reduce((x, y) => x + y);
-const average = (...args) => {return(sum(args)/args.length)};
+const average = (...args) => sum(args) / args.length;
 console.log(average(1));
 console.log(average(1, 3));
 console.log(average(1, 3, 6, 6));
